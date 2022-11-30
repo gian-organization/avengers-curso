@@ -1,0 +1,146 @@
+div.center {
+    margin: 0 auto;
+}
+.h3 {
+    margin-top: -25px;
+}
+p.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+.center-text {
+    text-align: center;
+}
+.col {
+    width: 940px;
+    height: auto;
+}
+.col-1 {
+    width: 940px;
+    height: auto;
+    float: left;
+}
+.col-2:nth-child(2n-1) {
+    width: 467.5px;
+    height: auto;
+    margin-right: 5px;
+    margin-bottom: 4px;
+    float: left;
+}
+.col-2:nth-child(2n) {
+    width: 467.5px;
+    height: auto;
+    float: left;
+}
+.col-3:nth-child(3n-1), .col-3:nth-child(3n-2) {
+    width: 310px;
+    height: auto;
+    margin-right: 5px;
+    float: left;
+}
+.col-3:nth-child(3n) {
+    width: 310px;
+    height: auto;
+    float: left;
+}
+.col-4:nth-child(4n-1), .col-4:nth-child(4n-2), .col-4:nth-child(4n-3) {
+    width: 231.25px;
+    height: auto;
+    margin-right: 5px;
+    float: left;
+}
+.col-4:nth-child(4n) {
+    width: 231.25px;
+    height: auto;
+    float: left;
+}
+.col-5:nth-child(5n-1), .col-5:nth-child(5n-2), .col-5:nth-child(5n-3), .col-5:nth-child(5n-4) {
+    width: 184px;
+    height: auto;
+    margin-right: 5px;
+    float: left;
+}
+.col-5:nth-child(5n) {
+    width: 184px;
+    height: auto;
+    float: left;
+}
+.col-6:nth-child(6n-1), .col-6:nth-child(6n-2), .col-6:nth-child(6n-3), .col-6:nth-child(6n-4), .col-6:nth-child(6n-5) {
+    width: 152.5px;
+    height: auto;
+    margin-right: 5px;
+    float: left;
+}
+.col-6:nth-child(6n) {
+    width: 152.5px;
+    height: auto;
+    float: left;
+}
+ol, ul {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: column; 
+    margin-left: -35px;
+}
+ul {
+    list-style-type: none;
+}
+.borders {
+    outline: 1px silver solid;
+    outline-offset: -1px;
+    border-radius: 17%;
+}
+.h-110 {
+    height: 110px !important;
+}
+.spring-font {
+    background: rgb(108, 181, 45);
+    color: white;
+}
+.spring-font:hover {
+    opacity: 0.90;
+}
+.jee-font { 
+    background: #6b3b39;
+    color: white;
+}
+.jee-font:hover {
+    opacity: 0.90;
+}
+.databases-font {
+    background: beige;
+    color: black;
+}
+.databases-font:hover {
+    opacity: 0.70;
+}
+.qa-font { 
+    background: gray;
+    color: white;
+}
+.qa-font:hover {
+    opacity: 0.90;
+}
+.versioning-font {
+    background: rgb(231, 46, 21);
+    color: white;
+}
+.versioning-font:hover {
+    opacity: 0.90;
+}
+.dependencies-font {
+    background: rgb(100, 195, 255);
+    color: white;
+}
+.dependencies-font:hover {
+    opacity: 0.80;
+}
+.container {
+    width: 960px;
+    height: 96vh;
+    padding-left: 20px;
+    margin-top: 10px !important;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
